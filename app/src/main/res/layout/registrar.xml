@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/accent_material_light">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|top">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Registro"
+                android:id="@+id/textView5"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="120dp"
+                android:textSize="25dp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <ImageView
+                android:layout_width="61dp"
+                android:layout_height="61dp"
+                android:id="@+id/imageView2"
+                android:background="@drawable/reg"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp" />
+        </TableRow>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="140dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Nombre"
+                android:id="@+id/nom"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:typeface="serif"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Nombre"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="190dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Apellidos"
+                android:id="@+id/ap"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:typeface="serif"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Apellidos"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:password="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="240dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Edad"
+                android:id="@+id/ed"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:typeface="serif"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Edad"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:password="false"
+                android:numeric="integer" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="290dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Peso"
+                android:id="@+id/pes"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:typeface="serif"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Peso"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:password="false"
+                android:numeric="decimal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="340dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Altura"
+                android:id="@+id/al"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:typeface="serif"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Altura"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:password="false"
+                android:numeric="integer" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="380dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Genero"
+                android:id="@+id/gen"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:typeface="serif"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:layout_width="228dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/gene"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:password="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="490dp" >
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registrar"
+                android:id="@+id/registrar"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="15dp"
+                android:typeface="serif"
+                android:textStyle="bold|italic"
+                android:onClick="click" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="430dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Password"
+                android:id="@+id/pass"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:typeface="serif"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:layout_width="228dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Password"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:password="true" />
+        </LinearLayout>
+
+    </FrameLayout>
+</ScrollView>

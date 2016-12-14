@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/accent_material_light">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="ACERCA DE"
+                android:textColor="#ffbd53"
+                android:id="@+id/de"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="125dp"
+                android:typeface="serif"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/imageView5"
+                android:background="@drawable/us"
+                android:layout_marginLeft="-100dp"
+                android:layout_marginTop="65dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="560dp" >
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Regresar"
+                android:id="@+id/reg"
+                android:layout_marginLeft="140dp"
+                android:typeface="serif"
+                android:textStyle="bold|italic"
+                android:onClick="click" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="229dp"
+            android:layout_marginTop="350dp">
+
+            <TextView
+                android:layout_width="335dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" Programa desarrollado y diseñado por Lizeth Medina Medina,  estudiante de la carrera de ingenieria."
+                android:id="@+id/textView6"
+                android:layout_marginLeft="20dp"
+                android:typeface="serif"
+                android:textStyle="bold|italic"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="150dp">
+
+        </LinearLayout>
+
+    </FrameLayout>
+</ScrollView>

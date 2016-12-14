@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/accent_material_light">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Bienvenido"
+                android:id="@+id/bienvenido"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="115dp"
+                android:typeface="serif"
+                android:textStyle="bold|italic"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageView6"
+                android:background="@drawable/imc"
+                android:layout_marginLeft="-135dp"
+                android:layout_marginTop="75dp" />
+        </TableRow>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="258dp"
+            android:layout_marginTop="290dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ingresa tu peso actual:"
+                android:id="@+id/actualp"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/newPeso"
+                android:numeric="integer|decimal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="390dp"
+            android:weightSum="1">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calcular"
+                android:id="@+id/calc"
+                android:layout_marginLeft="60dp"
+                android:typeface="serif"
+                android:textStyle="bold|italic"
+                android:layout_weight="0.13"
+                android:onClick="click" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registros"
+                android:id="@+id/registros"
+                android:layout_marginLeft="50dp"
+                android:typeface="serif"
+                android:textStyle="bold|italic"
+                android:layout_marginRight="30dp"
+                android:onClick="click" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/resultado"
+            android:layout_marginTop="450dp" />
+
+    </FrameLayout>
+</ScrollView>
